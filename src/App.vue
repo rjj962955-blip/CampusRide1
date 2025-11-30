@@ -1,13 +1,16 @@
 <template>
   <div id="app">
-    <router-view />
+    <AddUser />
   </div>
 </template>
 
 <script>
+import AddUser from "./components/AddUser.vue";
+
 export default {
-  name: 'App'
-}
+  name: "App",
+  components: { AddUser }
+};
 </script>
 
 <style>
